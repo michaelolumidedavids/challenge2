@@ -31,6 +31,18 @@ body {
   background: #ffe4c4;
 
 }
+ul, li{
+  padding: 0;
+  list-style-type: none;
+}
+
+p{
+  color:#644117;
+}
+
+h1,h2,h3{
+  color:#644117;
+}
 
 header {
   max-width: 1200px;
