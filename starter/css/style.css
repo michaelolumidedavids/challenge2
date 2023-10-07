@@ -26,7 +26,10 @@ p {
 /* Styling begins below*/
 
 body {
-  margin
+  margin:n20px;
+  font-family: "poppins";
+  background: #ffe4c4;
+
 }
 
 header {
