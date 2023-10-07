@@ -43,4 +43,52 @@ header nav a{
 main{
   max-width:1200px;
   margin:60px auto;
+  padding: 20px;
+
 }
+
+main img{
+  grid-column:span 6; /*ensures images in main spans 6 columns in width*/
+  width:100%;
+  border-radius: 6px;
+
+}
+
+main .welcome{
+  grid-column: 8 /span 5;/*welcome text area leaves one column and spans 5 columns after image, i*/
+
+
+
+}
+
+
+
+main .about-area{
+  grid-column: span 12;
+  text-align:center;
+  color:#fff;
+  background:#333
+  
+
+}
+
+main .about-area > p{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top:20px;
+}
+
+
+
+main .portfolio-card{
+  grid-column: span 4; /*split portfloio area into 3 cards, each spanning 4 columns*/
+  background:#fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px rgba(0,0,0);
+
+
+}
+
+
