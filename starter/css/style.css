@@ -17,3 +17,19 @@ body {
   gap: 30px;
 }
 
+header{
+  padding: 20px 40px;
+  background: #fff;
+
+}
+
+header h1{
+  grid-column:span 6; /*ensures Michael Davids h1 spans 6 columns*/
+}
+
+header nav {
+  grid-column: 7 / span 6; /*starts at 7th column and spans 6 columns after*/
+  justify-self: end; /*pushes all nav items to the end of the last column)*/
+  align-items: center;
+
+}
