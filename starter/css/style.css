@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -25,47 +27,4 @@ p {
 
 /* Styling begins below*/
 
-body {
-  margin:n20px;
-  font-family: "poppins";
-  background: #ffe4c4;
 
-}
-ul, li{
-  padding: 0;
-  list-style-type: none;
-}
-
-p{
-  color:#644117;
-}
-
-h1,h2,h3{
-  color:#644117;
-}
-
-header {
-  max-width: 1200px;
-  margin: 40px auto;
-  border-bottom: 1px solid #a52a2a;
-
-}
-
-
-.hero-banner{
-  display:grid;
-  grid-column:span 2;
-  grid-template-columns:1fr 1fr;
-  align-items:center;
-  border-bottom:1-x solid #bbc7c7;
-  padding-bottom: 40px
-}
-
-section img, hero-banner img, page-wrapper-container img{
-  width: 100%;
-  border: 4px solid #fff;
-  border-radius: 8px;
-}
-
-
-}
