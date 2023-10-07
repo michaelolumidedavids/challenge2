@@ -33,3 +33,14 @@ header nav {
   align-items: center;
 
 }
+
+header nav a{
+  color: #333;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+main{
+  max-width:1200px;
+  margin:60px auto;
+}
