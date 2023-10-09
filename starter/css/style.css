@@ -124,5 +124,9 @@ main .portfolio-card{
     grid-column: 3 / span 8;
   }
 
+  header .grid{
+    grid-column: 2 / span 10;
+  }
+
 
 }
