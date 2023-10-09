@@ -51,7 +51,12 @@ main img{
   grid-column:span 6; /*ensures images in main spans 6 columns in width*/
   width:100%;
   border-radius: 6px;
+  transition: transform .1s; /* transform property to enlarg the look of the element on action */
 
+}
+
+main img:hover{
+  transform: scale(1.2);
 }
 
 main .welcome{
@@ -60,6 +65,8 @@ main .welcome{
 
 
 }
+
+
 
 
 
@@ -93,3 +100,29 @@ main .portfolio-card{
 }
 
 
+
+/*Responsiveness styling below */
+
+@media screen and (max-width: 960px) {
+
+  main img{
+    grid-column: 2 / span 10;
+    
+  }
+
+  main .welcome{
+    grid-column:3 / span 8;
+    text-align: center;
+  }
+
+  main .about-area{
+    grid-column:3 / span 8;
+    text-align: center;
+  }
+
+  main .portfolio-card{
+    grid-column: 3 / span 8;
+  }
+
+
+}
